@@ -1,0 +1,223 @@
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: Red;
+  font-weight: bold;
+}
+
+.bg-custom {
+  background-color: transparent !important;
+  transition: 100ms ease;
+}
+
+.bg-custom.scrolled{
+  background-color: #a80009 !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-indicators li {
+  visibility: hidden;
+ }
+ .big-heading{
+   margin-bottom: auto 200px;
+   font-family: "Ubuntu";
+   font-size: 2.2em;
+   line-height: 50px;
+   font-weight: 400;
+   color: #fff;
+ }
+.register-button{
+  margin-bottom:200px;
+  background-color:#a80009 !important;
+}
+
+.modal-content {
+  background-color: #f39c12;
+  height: 500px;
+  width: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #f39c12;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.modal-header .close {
+  margin-top: -1.5rem;
+}
+
+.form-title {
+  margin: -2rem 0rem 2rem;
+}
+
+.btn-round {
+  border-radius: 3rem;
+}
+
+.delimiter {
+  padding: 1rem;
+}
+
+.social-buttons .btn {
+  margin: 0 0.5rem 1rem;
+}
+
+.signup-section {
+  padding: 0.3rem 0rem;
+}
+
+.form_container {
+  margin-top: 100px;
+}
+
+.login_btn {
+  width: 100%;
+  background: #c0392b !important;
+  color: white !important;
+  margin-top: 50px;
+}
+
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+.login_container {
+  padding: 0 2rem;
+}
+
+.input-group-text {
+  background: #c0392b !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: #60a3bc;
+  padding: 10px;
+  text-align: center;
+}
+
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+<!---Registration Form --->
+.form-control{
+  margin-top: 300px;
+}
+.registration-body{
+  padding-top: 100px;
+}
+.registration-heading{
+  height: 90px;
+  padding: 10px;
+  text-align: center;
+
+  background-color: red;
+  color: #fff;
+}
+.personal-details{
+  margin-top: 20px;
+}
+.registration-horoscope{
+  height: 90px;
+  padding: 10px;
+  text-align: center;
+
+  background-color: red;
+  color: #fff;
+  margin-top: 50px;
+}
+.horoscope-details{
+  margin-top: 20px;
+}
+.registration-Education{
+  height: 90px;
+  padding: 10px;
+  text-align: center;
+
+  background-color: red;
+  color: #fff;
+  margin-top: 30px;
+}
+.education-occupation{
+  margin-top: 20px;
+}
+.container-occupation{
+  margin-top: 10px;
+}
+.family-details{
+  margin-top: 10px;
+}
+.BrotherMarried{
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.partnerdetails{
+  margin-top: 20px;
+}
+.membership-form{
+  margin-top: 20px;
+}
+.terms-condition{
+  margin-top: 20px;
+}
+.message{
+  color: red;
+  margin-top: 40px;
+}
+.submit-info{
+  background-color: #008000;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  /*margin-top: 50px;
+  margin-left: 1000px;
+  border-radius: 15px;
+  height: 50px;
+  width: 100px;*/
+}

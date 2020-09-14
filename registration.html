@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Matrimony Site</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+
+</head>
+
+<body class="registration-body">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger fixed-top">
+    <a class="navbar-brand" href="#">Marriage</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Bride</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Groom</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark " href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#" data-toggle="modal" data-target="#exampleModalCenter">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!--  Personal Details -->
+  <div class="container">
+    <h1 class="registration-heading">Personal Details</h1>
+    <form class="needs-validation personal-details" novalidate>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom01">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02">Middle name</label>
+          <input type="text" class="form-control" id="validationCustom02" placeholder="Middle name" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom03">Last name</label>
+          <input type="text" class="form-control" id="validationCustom03" placeholder="Last name" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomGender">Gender</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Groom</option>
+            <option>Bride</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomDob">Date Of Birth</label>
+          <input type="date" class="form-control" id="validationCustomDob" placeholder="Date Of Birth" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomBirthTme">Birth Time</label>
+          <input type="time" class="form-control" id="validationCustomBirthTime" placeholder="Birth Time" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomTaluka">Birth Place Taluka</label>
+          <input type="text" class="form-control" id="validationCustomTaluka" placeholder="Birth Place Taluka" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomDistrict">Birth Place District</label>
+          <input type="text" class="form-control" id="validationCustomDistrict" placeholder="Birth Place District" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomDiet">Diet</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Vegaterian</option>
+            <option>Non-Vegaterian</option>
+            <option>Eggaterian</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomSpects">Have Spects</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomDisable">Physical Disable</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomPhysicalDisabilities">Physical Disabilities</label>
+          <input type="text" class="form-control" id="validationCustomDisabilities" placeholder="If any please specify" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomMaritalStatus">Marital Status</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Single</option>
+            <option>Divorcee</option>
+            <option>Widow</option>
+            <option>Widower</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomPassport">Passport</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomBloodGroup">Blood Group</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>O +ve</option>
+            <option>A +ve</option>
+            <option>B +ve</option>
+            <option>AB +ve</option>
+            <option>O -ve</option>
+            <option>A -ve</option>
+            <option>B -ve</option>
+            <option>AB -ve</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomPhysicalHobbies">Hobbies</label>
+          <input type="text" class="form-control" id="validationCustomHobbies" placeholder="Hobbies" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomCurrentResidence">Current Residence</label>
+          <input type="text" class="form-control" id="validationCustomCurrentResidence" placeholder="Current Residence" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomEmail">Email</label>
+          <input type="text" class="form-control" id="validationCustomEmail" placeholder="Email address with no Spaces" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- End Personal Details -->
+
+  <!--Horoscope Details -->
+  <div class="container container-horoscopedetails">
+    <h1 class="registration-horoscope">Horoscope Details</h1>
+    <form class="needs-validation horoscope-details" novalidate>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomMangalik">Mangalik</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Strong</option>
+            <option>Medium</option>
+            <option>Average</option>
+            <option>Not Harmful</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomGotra">Gotra</label>
+          <input type="text" class="form-control" id="validationCustomGotra" placeholder="Gotra" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomDevak">Devak</label>
+          <input type="text" class="form-control" id="validationCustomDevak" placeholder="Devak" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomRashi">Rashi</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Mesh</option>
+            <option>Vrushabha</option>
+            <option>Mithun</option>
+            <option>Karka</option>
+            <option>Sinha</option>
+            <option>Kanya</option>
+            <option>Tul</option>
+            <option>Wrushik</option>
+            <option>Dhanu</option>
+            <option>Makar</option>
+            <option>Kumbha</option>
+            <option>Meen</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomNakshatra">Nakshatra</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Ashwini</option>
+            <option>Bharani</option>
+            <option>Kritika</option>
+            <option>Rohini</option>
+            <option>Mruga</option>
+            <option>Ardra</option>
+            <option>Punarvasu</option>
+            <option>Pushya</option>
+            <option>Ashlesha</option>
+            <option>Mrigashirsha</option>
+            <option>Magha</option>
+            <option>Purva Phalguni</option>
+            <option>Uttara Phalguni</option>
+            <option>Hasta</option>
+            <option>Chitra</option>
+            <option>Svati</option>
+            <option>Vishakha</option>
+            <option>Anurudha</option>
+            <option>Jyeshtha</option>
+            <option>Mula</option>
+            <option>Purva Ashadha</option>
+            <option>Uttara Ashadha</option>
+            <option>Shravishtha</option>
+            <option>Shatabhishaj</option>
+            <option>Purva Bhadrapada</option>
+            <option>Uttara Bhadrapada</option>
+            <option>Revati</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomGan">Gan</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Dev</option>
+            <option>Manushya</option>
+            <option>Rakshas</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomNadi">Nadi</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Adhya</option>
+            <option>Madhya</option>
+            <option>Antya</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomCharan">Charan</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- End Horoscope Details -->
+
+  <!--Education And Occupation Details -->
+  <div class="container">
+    <h1 class="registration-Education">Education and Occupation Details</h1>
+    <form class="needs-validation education-occupation" novalidate>
+      <div class="form-row">
+        <div class="col-md-6 mb-2">
+          <label for="validationCustomEducation">Education</label>
+          <select class="form-control" required>
+            <option value="Select">Select</option>
+            <option value="Aviation">Aviation</option>
+            <option value="B.A">B.A</option>
+            <option value="B.Arch">B.Arch</option>
+            <option value="B.B.A">B.B.A</option>
+            <option value="B.C.A">B.C.A</option>
+            <option value="B.C.S">B.C.S</option>
+            <option value="B.Com">B.Com</option>
+            <option value="BAMS">BAMS</option>
+            <option value="BDS">BDS</option>
+            <option value="B.E">B.E</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Ed">B.Ed</option>
+            <option value="B.LIB">B.LIB</option>
+            <option value="BHMS">BHMS</option>
+            <option value="BL">BL</option>
+            <option value="B.Pharm">B.Pharm</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="CA">CA</option>
+            <option value="Class 10">Class 10</option>
+            <option value="Class 12">Class 12</option>
+            <option value="CS">CS</option>
+            <option value="Diploma">Diploma</option>
+            <option value="D.ed">D.ed</option>
+            <option value="ICWA">ICWA</option>
+            <option value="less Than 10th">less Than 10th</option>
+            <option value="LLB">LLB</option>
+            <option value="LLM">LLM</option>
+            <option value="M.A">M.A</option>
+            <option value="M.Arch">M.Arch</option>
+            <option value="MBA">MBA</option>
+            <option value="MBBS">MBBS</option>
+            <option value="MCA">MCA</option>
+            <option value="MCS">MCS</option>
+            <option value="M.Com">M.Com</option>
+            <option value="M.Lib">M.Lib</option>
+            <option value="MD">MD</option>
+            <option value="MS">MS</option>
+            <option value="M.Ed">M.Ed</option>
+            <option value="M.E">M.E</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="MS">MS</option>
+            <option value="ML">ML</option>
+            <option value="M.Pharm">M.Pharm</option>
+            <option value="Mphil">Mphil</option>
+            <option value="M.Sc">M.Sc</option>
+            <option value="PGDCA">PGDCA</option>
+            <option value="PG Diploma">PG Diploma</option>
+            <option value="PGDM">PGDM</option>
+            <option value="Phd">Phd</option>
+            <option value="Other">Other</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-2">
+          <label for="validationCustomAdditional">Additional Qualification</label>
+          <input type="text" class="form-control" id="validationCustomAdditional" placeholder="Additional Qualification" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-12 mb-3">
+          <label for="validationCustomOccupation">Occupation</label><br>
+          <label class="checkbox-inline">
+            <input type="checkbox" value="" id="validationCustomOccupation" required>Service
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" value="" id="validationCustomOccupation" required>Business
+          </label>
+        </div>
+
+        <div class="col-md-6 mb-2">
+          <label for="validationCustomOccupationDetails">Occupation Details</label>
+          <input type="text" class="form-control" id="validationCustomOccupationDetails" placeholder="Occupation Details" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-2">
+          <label for="validationCustomIncome">Income</label>
+          <input type="text" class="form-control" id="validationCustomIncome" placeholder="Income" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+
+      </div>
+    </form>
+  </div>
+
+
+
+  <!-- End Education And Occupation Details -->
+
+  <!-- Family Details-->
+  <div class="container">
+    <h1 class="registration-horoscope">Family Details</h1>
+    <form class="needs-validation family-details" novalidate>
+      <div class="form-row">
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomFather">Father</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomFatherName">Father name</label>
+          <input type="text" class="form-control" id="validationCustomFatherName" placeholder="Father name" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomFatherOccupation">Father Occupation</label>
+          <input type="text" class="form-control" id="validationCustomFatherOccupation" placeholder="Father Occupation" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-2">
+          <label for="validationCustomGuardian">Guardian</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-2">
+          <label for="validationCustomGuardianName">Guardian Name</label>
+          <input type="text" class="form-control" id="validationCustomGuardianName" placeholder="Guardian Name" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-2">
+          <label for="validationCustomPhone">Phone</label>
+          <input type="text" class="form-control" id="validationCustomPhone" placeholder="Phone" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-2">
+          <label for="validationCustomMobile">Mobile</label>
+          <input type="text" class="form-control" id="validationCustomMobile" placeholder="Mobile" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-12 mb-3">
+          <label for="validationCustomAddressCorrespondencee">Address Correspondence (200 Character Only)</label>
+          <textarea class="form-control" id="validationCustomAddressCorrespondencee" rows="1"></textarea>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomBrotherNumberMarried">Brother Number Married</label>
+          <input type="text" class="form-control" id="validationCustomBrotherNumberMarried" placeholder="Brother Number Married" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomBrotherNumberUnMarried">Brother Number UnMarried</label>
+          <input type="text" class="form-control" id="validationCustomBrotherNumberUnMarried" placeholder="Brother Number UnMarried" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomSisterNumberMarried">Sister Number Married</label>
+          <input type="text" class="form-control" id="validationCustomSisterNumberMarried" placeholder="Sister Number Married" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomSisterNumberUnMarried">Sister Number unMarried</label>
+          <input type="text" class="form-control" id="validationCustomSisterNumberUnMarried" placeholder="Sister Number UnMarried" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomParentNativeCity">Parent Native City</label>
+          <input type="text" class="form-control" id="validationCustomParentNativeCity" placeholder="Parent Native City" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomParentNativeTaluka">Parent Native Taluka</label>
+          <input type="text" class="form-control" id="validationCustomParentNativeTaluka" placeholder="Parent Native Taluka" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomNativeDistrict">Native District</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Ahmednagar</option>
+            <option>Akola</option>
+            <option>Amravati</option>
+            <option>Aurangabad</option>
+            <option>Beed</option>
+            <option>Bhandara</option>
+            <option>Buldhana</option>
+            <option>Chandrapur</option>
+            <option>Dhule</option>
+            <option>Gadchiroli</option>
+            <option>Gondia</option>
+            <option>Hingoli</option>
+            <option>Jalgaon</option>
+            <option>Jalna</option>
+            <option>Kolhapur</option>
+            <option>Latur</option>
+            <option>Mumbai City</option>
+            <option>Mumbai Suburban</option>
+            <option>Nagpur</option>
+            <option>Nanded</option>
+            <option>Nandurbar</option>
+            <option>Nashik</option>
+            <option>Osmanabad</option>
+            <option>Palghar</option>
+            <option>Parbhani</option>
+            <option>Pune</option>
+            <option>Raigad</option>
+            <option>Ratnagiri</option>
+            <option>Sangli</option>
+            <option>Satara</option>
+            <option>Sindhudurg</option>
+            <option>Solapur</option>
+            <option>Thane</option>
+            <option>Wardha</option>
+            <option>Washim</option>
+            <option>Yavatmal</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomFamilyWealth">Family Wealth</label>
+          <input type="text" class="form-control" id="validationCustomFamilyWealth" placeholder="Family Wealth" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomMotherFatherName">Mother's Fathers Name</label>
+          <input type="text" class="form-control" id="validationCustomMotherFatherName" placeholder="Mother's Fathers Name" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomMotherFatherNative">Mother's Fathers Native</label>
+          <input type="text" class="form-control" id="validationCustomMotherFatherNative" placeholder="Mother's Fathers Native" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomRelative">Relative</label>
+          <input type="text" class="form-control" id="validationCustomRelative" placeholder="Relative" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- End Family Details-->
+
+  <!-- Expectation Partner Details -->
+  <div class="container">
+    <h1 class="registration-horoscope">Expectation Partner Details</h1>
+    <form class="needs-validation partnerdetails" novalidate>
+      <div class="form-row">
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedMaritalStatus">Expected Marital Status</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Single</option>
+            <option>Divorcee</option>
+            <option>Widow</option>
+            <option>Widower</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedHeight">Expected Height</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>4.1 and above</option>
+            <option>4.2 and above</option>
+            <option>4.3 and above</option>
+            <option>4.4 and above</option>
+            <option>4.5 and above</option>
+            <option>4.6 and above</option>
+            <option>4.7 and above</option>
+            <option>4.8 and above</option>
+            <option>4.9 and above</option>
+            <option>4.10 and above</option>
+            <option>4.11 and above</option>
+            <option>5.0 and above</option>
+            <option>5.1 and above</option>
+            <option>5.2 and above</option>
+            <option>5.3 and above</option>
+            <option>5.4 and above</option>
+            <option>5.5 and above</option>
+            <option>5.6 and above</option>
+            <option>5.7 and above</option>
+            <option>5.8 and above</option>
+            <option>5.9 and above</option>
+            <option>5.10 and above</option>
+            <option>5.11 and above</option>
+            <option>6.0 and above</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedAgeDifference">Expected Age Difference</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>1 to 2</option>
+            <option>2 to 4</option>
+            <option>3 to 5</option>
+            <option>4 to 6</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedComplexion">Expected Complexion</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Fair</option>
+            <option>Wheatish</option>
+            <option>Blakish</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedMangal">Expected Mangal</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Strong</option>
+            <option>Medium</option>
+            <option>Average</option>
+            <option>Not Harmful</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomHoroscope">Horoscope</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedHavespects">Expected Havespects</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomPreferedCities">Prefered Cities</label>
+          <input type="text" class="form-control" id="validationCustomPreferedCities" placeholder="Prefered Cities" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedEducation">Expected Education</label>
+          <input type="text" class="form-control" id="validationCustomExpectedEducation" placeholder="Expected Education" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedOccupation">Expected Occupation</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="" id="validationCustomExpectedOccupation" required>
+            <label class="form-check-label" for="validationCustomExpectedOccupation">
+              Service
+            </label>
+            <input class="form-check-input" type="checkbox" value="" id="validationCustomExpectedOccupation" required>
+            <label class="form-check-label" for="validationCustomExpectedOccupation">
+              Business
+            </label>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedOccupationDetails">Expected Occupation Details</label>
+          <input type="text" class="form-control" id="validationCustomExpectedOccupationDetails" placeholder="Expected Occupation Details" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <label for="validationCustomExpectedIncome">Expected Income</label>
+          <input type="text" class="form-control" id="validationCustomExpectedIncome" placeholder="Expected Income" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+
+        <div class="col-md">
+          <label for="validationCustomComments">Comments</label>
+          <textarea class="form-control" id="validationCustomComments" rows="1"></textarea>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <!--End Expectation Partner Details -->
+
+  <!-- Member Ship Form-->
+  <div class="container">
+    <h1 class="registration-horoscope">By submitting this registration form I Agree that</h1>
+    <form class="needs-validation membership-form" novalidate>
+      <div class="form-row">
+        <div class="col-md">
+          <label for="validationCustomHoroscope">Membership</label>
+          <select class="form-control" required>
+            <option>Select</option>
+            <option>Gold - Rs.1500 - Credit points 150 [1 year] </option>
+            <option>Platinum - Rs.3000 - Credit points unlimited [Till engagement]</option>
+          </select>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group terms-condition">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            *Accept all terms and codition
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+
+      <label class="message">Once registration is completed please send your decent photograph to dnyandeepvadhuvar@googlemail.com with registrant's first and last name.</label>
+      <button class="btn btn-success submit-info " type="submit">Submit</button>
+    </form>
+
+  </div>
+  <!-- End Membership Form-->
+
+</body>
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/1ef00a3a05.js" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="JS/custom.js"></script>
+
+</html>

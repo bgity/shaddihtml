@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Matrimony Site</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet" />
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!--- NavBar Start--->
+  <section class="colored-section" id="title">
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
+      <a class="navbar-brand text-light" href="#">Marriage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Bride</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Groom</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#" data-toggle="modal" data-target="#exampleModalCenter">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="registration.html">Registration</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <!--- NavBar End---->
+
+  <!---Carousal Slider Start --->
+  <section>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/couple_dating.jpg" alt="couple_dating" width="1100" height="500" />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="big-heading">
+              We bring people together.<br />Love unites them...
+            </h1>
+            <button type="button" class="btn btn-outline-light btn-lg register-button">
+              Register
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <!---<a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>--->
+    </div>
+  </section>
+
+  <!---Carousal Slider End --->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0">
+          <!---<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>--->
+        </div>
+        <div class="modal-body">
+          <div class="d-flex justify-content-center">
+            <div class="brand_logo_container">
+              <img src="https://cdn.freebiesupply.com/logos/large/2x/pinterest-circle-logo-png-transparent.png"
+                class="brand_logo" alt="Logo" />
+            </div>
+          </div>
+
+          <div class="d-flex flex-column text-center form_container">
+            <form>
+              <div class="input-group mb-3">
+                <div class="input-group-append">
+                  <span class="input-group-text"><i class="fas fa-user"></i></span>
+                </div>
+                <input type="text" name="" class="form-control input_user" value="" placeholder="username" />
+              </div>
+              <div class="input-group mb-2">
+                <div class="input-group-append">
+                  <span class="input-group-text"><i class="fas fa-key"></i></span>
+                </div>
+                <input type="password" name="" class="form-control input_pass" value="" placeholder="password" />
+              </div>
+              <div class="d-flex justify-content-center mt-3 login_container">
+                <button type="button" name="button" class="btn login_btn">
+                  Login
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <div class="signup-section">
+            Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---Login Card--->
+</body>
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/1ef00a3a05.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="JS/custom.js"></script>
+
+</html>
