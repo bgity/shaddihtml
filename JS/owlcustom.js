@@ -9,6 +9,19 @@ $(document).ready(function () {
         smartSpeed: 1500,
         autoplayHoverPause: true
     });
+
+    var scroll_link = $('.scroll');
+    //smooth scrolling -----------------------
+    scroll_link.click(function (e) {
+        e.preventDefault();
+        var url = $('body').find($(this).attr('href')).offset().top;
+        $('html, body').animate({
+            scrollTop: url
+        }, 800);
+        $(this).parent().addClass('active');
+        $(this).parent().siblings().removeClass('active');
+        return false;
+    });
 });
 
 $(window).scroll(function () {

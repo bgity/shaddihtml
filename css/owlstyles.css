@@ -35,7 +35,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    padding: 0 23%;
+    padding: 0 24%;
 }
 
 .slide-content h1 {
@@ -159,7 +159,7 @@ body {
     #mainNav {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        background-color: black;
+        background-image: linear-gradient(-111deg, rgb(109, 36, 81) 5%, rgb(149, 28, 34) 98%);
     }
 
     .slide-content {
@@ -171,7 +171,7 @@ body {
     #mainNav {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        background-color: black;
+        background-image: linear-gradient(-111deg, rgb(109, 36, 81) 5%, rgb(149, 28, 34) 98%);
     }
 
     .slide-content {
@@ -194,11 +194,12 @@ body {
     font-weight: 400;
     font-style: italic;
     font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .bg-custom.scrolled {
-    background-color: #b10811 !important;
+    /* background-color: #b10811 !important; */
+    background-image: linear-gradient(-111deg, rgb(109, 36, 81) 5%, rgb(149, 28, 34) 98%);
 }
 
 .text-primary {
@@ -233,4 +234,221 @@ p {
 
 .text-center {
     text-align: center !important;
+}
+
+div.introduction {
+    padding: 1em;
+    background: #f5f5f5;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+/* Card Based Layout - Base styles */
+
+p.site-title {
+    color: #000000;
+}
+
+article.col-md-4 .col-lg-4 {
+    background: #f5f5f5;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+div.card-content {
+    background-image: linear-gradient(-111deg, rgb(109, 36, 81) 5%, rgb(149, 28, 34) 98%);
+    margin-top: .5em;
+    /*  margin-bottom: 1em; */
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+div.card-content h3 {
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+div.card-content p {
+    font-size: 95%;
+    padding: 15px;
+    color: #e0c3c3;
+}
+
+img.spectrum1 {
+    width: 100%;
+    height: auto;
+}
+
+div a,
+a:hover {
+    text-decoration: none;
+}
+
+div a:hover {
+    opacity: 0.8;
+}
+
+.spectrum-h2 {
+    padding: 20px;
+    color: white;
+}
+
+.card-info-button {
+    /* margin-bottom: 15px; */
+    color: #fff !important;
+    background-color: #fec503 !important;
+    border-color: #f3bd01 !important;
+    text-transform: uppercase;
+    padding: .84rem 1.9rem;
+    font-size: .91rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .profile-card .profile-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 40%;
+    border: 3px solid #333;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transform: scale(1, 1);
+    transition: all 0.50s linear;
+}
+
+.profile-card .profile-content::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 40%;
+    border: 3px solid #222;
+    border-left: 3px solid transparent;
+    border-top: 3px solid transparent;
+    transition: all 0.50s linear;
+
+} */
+
+/* .profile-card:hover .profile-content:before {
+    top: 20px;
+    left: 20px;
+}
+
+.profile-card:hover .profile-content:after {
+    bottom: 20px;
+    right: 20px;
+} */
+
+.profile-card .profile-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*  padding: 50% 4%; */
+    text-align: center;
+
+}
+
+.profile-card .profile-content:hover {
+    /* background-color: rgba(235, 15, 33, 0.5); */
+    background-color: red;
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*  background-image: linear-gradient(-111deg, rgb(109, 36, 81) 5%, rgb(158, 92, 95) 98%); */
+}
+
+.profile-card .profile-content .title {
+    margin-top: 40px;
+    font-size: 24px;
+    color: white;
+    opacity: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transform: translateY(-100px);
+    transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.20s;
+}
+
+.profile-card:hover .title {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.profile-card:hover .title::after {
+    content: "";
+    display: block;
+    width: 50%;
+    /*  margin: 10px auto; */
+    /* border-bottom: 2px solid #222; */
+}
+
+.profile-card .profile-content .title>span {
+    display: block;
+    /*  margin: 5px 0; */
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/* .profile-card .profile-content .social-link {
+    margin: 20px 0;
+    padding: 0;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.20s;
+}
+
+.profile-card:hover .social-link {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.profile-card .profile-content .social-link li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 4px;
+}
+
+.profile-card .profile-content .social-link li a {
+    color: #333;
+    width: 30px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+} */
+
+
+.profile-card {
+    position: relative;
+    /* overflow: hidden; */
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 3px #222;
+
+}
+
+.profile-card:hover .profile-img img {
+    transform: scale(1.2);
+}
+
+.profile-card .profile-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 1s;
 }
