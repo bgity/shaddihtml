@@ -195,11 +195,11 @@ body {
 }
 
 .page-section {
-  padding: 3rem 0;
+  padding: 2.8rem 0;
 }
 
 .page-section h2.section-heading {
-  font-size: 2.5rem;
+  font-size: 32px;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -304,9 +304,9 @@ img.spectrum1 {
   width: 100%;
   height: 55vh;
 }
-img.spectrum123{
-	width: 100%;
-    height: 40vh;
+img.spectrum123 {
+  width: 100%;
+  height: 40vh;
 }
 div a,
 a:hover {
@@ -670,4 +670,16 @@ div a:hover {
 }
 #userDropdown {
   margin-right: -5rem;
+}
+.card-more-button {
+  background-image: linear-gradient(
+    -111deg,
+    rgb(109, 36, 81) 5%,
+    rgb(149, 28, 34) 98%
+  );
+  /* padding: 5.2px; */
+  margin-bottom: 23px;
+  /* margin-top: -5px; */
+  padding-left: 30px;
+  padding-right: 30px;
 }
